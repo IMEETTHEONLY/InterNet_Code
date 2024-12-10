@@ -23,8 +23,8 @@ public class SendMessageDemo {
         String str="你好你好";
         byte[] bytes = str.getBytes();
         //指定ip对象，这里是给自己发
-        InetAddress byName = InetAddress.getByName("172.0.0.1");
-
+        InetAddress byName = InetAddress.getByName("127.0.0.1");
+        //这里是发到10086这个端口
         DatagramPacket dp=new DatagramPacket(bytes,bytes.length,byName,10086);
 
         //发送数据
