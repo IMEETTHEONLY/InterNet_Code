@@ -28,7 +28,7 @@ public class Server {
            int b ;
            //循环从流中读取数据打印即可
            while ((b=br.read())!=-1){
-               System.out.println((char)b);
+               System.out.print((char)b);
            }
        }
 

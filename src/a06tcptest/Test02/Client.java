@@ -36,6 +36,7 @@ public class Client {
             System.out.println((char) b);
         }
 
+
         //关闭资源
         socket.close();
     }
